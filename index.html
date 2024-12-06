@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathing Exercise Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Breathing Exercise Tracker</h1>
+    </header>
+    <main>
+        <section class="exercise">
+            <h2>Start Breathing Exercise</h2>
+            <div id="timer">00:00</div>
+            <button id="startButton">Start</button>
+            <button id="resetButton" disabled>Reset</button>
+        </section>
+        <section class="log">
+            <h2>Exercise Log</h2>
+            <ul id="logList"></ul>
+			<button id="exportButton" disabled>Export to CSV</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Breathing Tracker</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
